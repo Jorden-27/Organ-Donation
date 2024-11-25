@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+    <link rel="stylesheet" href="style2.css">
+    <title>Document</title>
+</head>
+<body>
+    <div  class="bg">
+        <div class="navbar">
+          <img src="https://th.bing.com/th/id/R.d9775c6cec1c1dc2b82cccac725219f5?rik=HwV83OXCoLykrQ&riu=http%3a%2f%2f3.bp.blogspot.com%2f-9ONGmhoxGnU%2fVSV48FF6hvI%2fAAAAAAAAsn4%2f6pWhzaUYNZo%2fs1600%2forgan-donor-heart.png&ehk=kAQYXwEjDB%2fDT9i4sVBAvydnkPw2%2booEDTtyNpVSuJE%3d&risl=&pid=ImgRaw&r=0" class="logo">
+          <nav>
+            <ul>
+              <li><a href="#home" class="w3-button w3-bar-item">home</a>></li>
+              <li> <a href="#aboutus" class="w3-button w3-bar-item">about us </a></li>
+              
+            </ul>
+          </nav>
+          <img src="https://th.bing.com/th/id/R.bbeb482098870066e889c140d56c2e01?rik=3mxVM14HjzqtlQ&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_248841.png&ehk=QQDBi4bpxYhUAw%2b3sJ8UpXp4E3ihT3nWq6pK2A%2bPjMk%3d&risl=&pid=ImgRaw&r=0" class="menu-icon">
+          <br><br><br><br><br><br>
+        </div>
+        <div class="row">
+          <div class="col">
+            
+            <h1>Organ Donation</h1>
+            <p>yeh baccho ko bachao bas 5 rupay mein </p>
+            
+          </div> </div>
+
+          <br><br><br><br>
+       
+       
+        
+<div id="aboutus" class="w3-container w3-center w3-padding-32">
+ <h2 class="w3-wide">ABOUT US</h2>
+       
+            
+            
+               
+</nav>
+ <section>
+    <img class="mySlides" src="heart.jpg" width="100%">
+    <img class="mySlides" src="people.jpg" width="100%">
+    <img class="mySlides" src="orgon donor.jpg" width="100%">
+ </section>
+           
+           
+<script>
+            // Automatic Slideshow - change image every 3 seconds
+            var myIndex = 0;
+            carousel();
+            
+    function carousel() {
+         var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+       }
+      myIndex++;
+     if (myIndex > x.length) {myIndex = 1}
+        x[myIndex-1].style.display = "block";
+                 setTimeout(carousel, 4000);
+ }
+  </script>
+
+      
+    </div>
+    <div class="form">
+      <h2>Register Here</h2>
+      <input type="name" name="name" placeholder="Enter Name Here">
+      <input type="name" name="" placeholder="gender">
+      <input type="name" name="" placeholder="Enter your blood type">
+      <input type="address" name="" placeholder="Enter your address" rows="3" >
+      <button class="btnn"><a href="#">Login</a> </button>
+
+  </div>
+</body>
+</html>
